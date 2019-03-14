@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tugas</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var angka1 = parseInt(prompt('Masukkan angka pertama'));
+
+		var angka2 = parseInt(prompt('Masukkan angka kedua'));
+
+		var operasi = prompt('masukkan operasi mtk');
+
+
+		if(operasi =='tambah'){
+			alert(angka1 + angka2);
+		}
+		else if(operasi=='kurang'){
+			alert (angka1-angka2);
+		}
+		else if(operasi == 'kali'){
+			alert(angka1 * angka2);
+		}
+		else if (operasi == 'bagi'){
+			alert(angka1 / angka2);
+		}
+		else if (operasi == 'pangkat'){
+			alert(Math.pow(angka1 , angka2));
+		}
+
+		else if(operasi == 'min') {
+			alert(Math.min(angka1, angka2));
+		}
+		else if(operasi == 'max'){
+			alert(Math.max(angka1 , angka2));
+		}
+
+	</script>
+</body>
+</html>
